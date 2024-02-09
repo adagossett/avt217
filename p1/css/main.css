@@ -1,0 +1,23 @@
+html {
+	font-size: 16px;
+}
+body{
+	background-color: powderblue;
+}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: teal;
+}
+a{
+	color: mediumaquamarine;
+}
+a:visited{
+	color: linen;
+}
+a:hover{
+	color: darkseagreen;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: teal;
+}
