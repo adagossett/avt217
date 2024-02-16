@@ -1,0 +1,32 @@
+body{
+	background-color: oldlace;
+}
+*{
+	margin: 25px;
+	margin-top: 25px;
+}
+*{
+	font-family: font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: darkcyan;
+	margin-left: 15px;
+}
+
+h2{
+	color: cadetblue;
+}
+
+ul{
+	color: sienna;
+}
+a:visited{
+	color: sienna;
+}
+a:hover{
+	color: chocolate;
+}
+ul{
+	margin-left: 0px;
+}
