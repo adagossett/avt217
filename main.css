@@ -1,35 +1,87 @@
-body{
-	background-color: oldlace;
-}
-*{
-	margin: 25px;
-	margin-top: 25px;
-}
-*{
-	font-family: font-family: 'Roboto', sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: oldlace;
 }
 
-h1{
-	color: darkcyan;
-	margin-left: 15px;
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
-h2{
-	color: cadetblue;
+html {
+    font-size: 16px;
 }
 
-ul{
-	color: sienna;
+h1 {
+    color: darkcyan;
+    text-align: left;
+    margin-left: 20px;
+    max-width: 90%;
+    word-wrap: break-word;
 }
-a:visited{
-	color: sienna;
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
 }
-a:hover{
-	color: chocolate;
+
+h2 {
+    color: cadetblue;
+    max-width: 90%;
+    word-wrap: break-word;
 }
-ul{
-	margin-left: 0px;
+
+ul {
+    color: sienna;
+    padding: 0;
 }
-a{
-	color: sienna;
+
+a:visited,
+a:hover,
+a {
+    color: sienna;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col {
+    width: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Clearfix to prevent floating issues */
+.col::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1048px) {
+    main {
+        flex-direction: column; /* Change flex direction to stack columns vertically */
+    }
+
+    .col {
+        width: 100%; /* Set column width to 100% */
+        margin-bottom: 20px;
+    }
 }
