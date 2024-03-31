@@ -1,0 +1,122 @@
+ .egg{
+      display: block;
+      width: 320px;
+      height: 360px;
+      background-color: chocolate;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      margin: 25px auto;
+      margin-top: 150px;
+}
+.eye1{
+     position: absolute;
+     width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  background-color: black; /* Adjust as needed */
+  border-radius: 50%; /* Make it round */
+  margin-top: -260px;
+  margin-left: 660px;
+}
+.eye2{
+       position: absolute;
+       width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  background-color: black; /* Adjust as needed */
+  border-radius: 50%; /* Make it round */
+  margin-top: -260px;
+  margin-left: 820px;
+}
+.belly{
+     display: block;
+      width: 220px;
+      height: 180px;
+      background-color: linen;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      margin: 25px auto;
+      margin-top: -210px;
+}
+.belly2{
+     width: 200px;
+      height: 70px;
+      background-color: linen;
+      border-radius: 100px / 50px;
+      margin: 25px auto;
+      margin-top: -210px;
+
+}
+
+.nose {
+       width: 40px;
+      height: 20px;
+      background-color: lightpink;
+      border-radius: 100px / 50px;
+      margin: 25px auto;
+      margin-top: -100px;
+}
+.mouth{
+      width: 20px;
+  height: 20px;
+  border: 5px solid black;
+  border-color: lightpink;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(135deg);
+
+  margin-left: 733px;
+  margin-top: -43px;
+}
+.mouth2{
+      width: 20px;
+  height: 20px;
+  border: 5px solid black;
+  border-color: lightpink;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(135deg);
+
+  margin-left: 760px;
+  margin-top: -30px;
+}
+.leftear1{
+     position: absolute;
+     width: 60px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
+  background-color: chocolate; /* Adjust as needed */
+  border-radius: 50%; /* Make it round */
+  margin-top: -190px;
+  margin-left: 630px;
+}
+.rightear1{
+     position: absolute;
+     width: 60px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
+  background-color: chocolate; /* Adjust as needed */
+  border-radius: 50%; /* Make it round */
+  margin-top: -190px;
+  margin-left: 830px;
+}
+.leftear2{
+      position: relative;
+     width: 35px; /* Adjust as needed */
+  height: 35px; /* Adjust as needed */
+  background-color: linen; /* Adjust as needed */
+  border-radius: 50%; /* Make it round */
+  margin-top: -175px;
+  margin-left: 635px;
+
+}
+.rightear2{
+      position: relative;
+     width: 35px; /* Adjust as needed */
+  height: 35px; /* Adjust as needed */
+  background-color: linen; /* Adjust as needed */
+  border-radius: 50%; /* Make it round */
+  margin-top: -35px;
+  margin-left: 850px;
+
+}
