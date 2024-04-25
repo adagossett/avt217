@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $("#ketchup").click(function(){
-        $('#ketchup').addClass('new');
-        
-
-       
-       
-        });
+        if ($('#ketchup').hasClass('new')) {
+           
+            $('#ketchup').removeClass('new');
+        } else {
+            
+            $('#ketchup').addClass('new');
+        }
     });
-
+});
