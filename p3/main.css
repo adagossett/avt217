@@ -11,19 +11,19 @@ body {
     left: 100; 
     position: absolute; 
     cursor: pointer; 
-    width: 5%;
+    width: 75px;
     height: auto;
     position: absolute;
-    margin-top: 8%;
-    margin-left: 28.5%;
+    margin-top: 120px;
+    margin-left: 440px;
 
 }
 
 .hotdog {
-    top: 5%; 
-    left: 7%;
+    top: 70px; 
+    left: 100px;
     position: absolute;
-    width: 16%;
+    width: 250px;
     height: auto;
     position: absolute;
     top: 50%;
@@ -31,8 +31,15 @@ body {
     transform: translate(-50%, -50%);
 }
 .new{
-    top: 0.6%;
-    left: 19%;
+    top: 10px;
+    left: 290px;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: auto;
+    border-color: black;
+
 }
 
 @media screen and (max-width: 600px) {
