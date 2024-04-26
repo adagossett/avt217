@@ -31,8 +31,8 @@ body {
     transform: translate(-50%, -50%);
 }
 .new{
-    top: 10px;
-    left: 290px;
+    top: 0px;
+    left: 260px;
 }
 .container{
     position: relative;
